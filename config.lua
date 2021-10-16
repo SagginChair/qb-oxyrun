@@ -3,7 +3,7 @@ Config = {}
 -- Oxy runs.
 Config.StartOxyPayment = 1000 -- How much you pay at the start to start the run
 
-Config.RunAmount = math.random(25,50) -- How many drop offs the player does before it automatixally stops.
+Config.RunAmount = math.random(10,20) -- How many drop offs the player does before it automatixally stops.
 
 Config.Payment = math.random(200, 500) -- How much you get paid when RN Jesus doesnt give you oxy, divided by 2 for when it does.
 

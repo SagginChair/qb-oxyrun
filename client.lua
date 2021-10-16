@@ -313,7 +313,7 @@ Citizen.CreateThread(function()
 
 		if dropOff6 < 1.6 and not OxyRun then
 
-			DrawText3Ds(pillWorker['coords']["x"],pillWorker['coords']["y"],pillWorker['coords']["z"], "[E] $6,500 - Delivery Job (Payment Cash + Oxy)") 
+			DrawText3Ds(pillWorker['coords']["x"],pillWorker['coords']["y"],pillWorker['coords']["z"], "~g~[E] $1,000 - Delivery Job (Payment Cash + Oxy)") 
 			if IsControlJustReleased(0,38) then
 				TriggerServerEvent("oxydelivery:server")
 				Citizen.Wait(1000)
