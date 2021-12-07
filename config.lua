@@ -1,11 +1,11 @@
 Config = {}
 
 -- Oxy runs.
-Config.StartOxyPayment = 1000 -- How much you pay at the start to start the run
+Config.StartOxyPayment = 750 -- How much you pay at the start to start the run
 
-Config.RunAmount = math.random(8,16) -- How many drop offs the player does before it automatixally stops.
+Config.RunAmount = math.random(5,8) -- How many drop offs the player does before it automatixally stops.
 
-Config.Payment = math.random(200, 500) -- How much you get paid when RN Jesus doesnt give you oxy, divided by 2 for when it does.
+Config.Payment = math.random(400, 700) -- How much you get paid when RN Jesus doesnt give you oxy, divided by 2 for when it does.
 
 Config.Item = "oxy" -- The item you receive from the oxy run. Should be oxy right??
 Config.OxyChance = 500 -- Percentage chance of getting oxy on the run. Multiplied by 100. 10% = 100, 20% = 200, 50% = 500, etc. Default 55%.
